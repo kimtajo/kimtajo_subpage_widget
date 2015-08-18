@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+    <title xml:lang="ko">김타조 서브페이지 위젯</title>
+    <description xml:lang="ko">서브 페이지를 간단하게 꾸밀 수 있는 위젯입니다.</description>
+    <version>1.0</version>
+    <date>2015-08-18</date>
+    <author email_address="gptjdwkd891@gmail.com" link="">
+        <name xml:lang="ko">김타조</name>
+    </author>
+    <extra_vars>
+        <group>
+            <title xml:lang="ko">기본 설정</title>
+            <var id="title">
+                <type>text</type>
+                <name xml:lang="ko">제목</name>
+                <description xml:lang="ko">서브페이지의 제목입니다.</description>
+            </var>
+            <var id="sub_title">
+                <type>textarea</type>
+                <name xml:lang="ko">서브 제목</name>
+                <description xml:lang="ko">서브페이지의 서브 제목입니다.</description>
+            </var>
+            <var id="content_type">
+                <type>select</type>
+                <name xml:lang="ko">내용 타입</name>
+                <options>
+                    <value>image</value>
+                    <name xml:lang="ko">이미지</name>
+                </options>
+                <options>
+                    <value>text</value>
+                    <name xml:lang="ko">텍스트</name>
+                </options>
+            </var>
+            <var id="content_text">
+                <type>textarea</type>
+                <name xml:lang="ko">본문 내용(텍스트)</name>
+                <description xml:lang="ko">서브페이지의 본문 내용(텍스트)입니다.</description>
+            </var>
+            <var id="content_image_src">
+                <type>text</type>
+                <name xml:lang="ko">본문 내용(이미지)</name>
+                <description xml:lang="ko">서브페이지의 본문 내용(이미지)입니다.</description>
+            </var>
+        </group>
+        <group>
+            <title xml:lang="ko">색상 설정</title>
+            <var id="title_color">
+                <type>text</type>
+                <name xml:lang="ko">제목 색상</name>
+                <description xml:lang="ko">서브페이지의 제목 색상입니다.(기본값: #666)</description>
+            </var>
+            <var id="sub_title_color">
+                <type>text</type>
+                <name xml:lang="ko">서브 제목 색상</name>
+                <description xml:lang="ko">서브페이지의 서브 제목 색상입니다.(기본값: #666)</description>
+            </var>
+            <var id="point_color">
+                <type>text</type>
+                <name xml:lang="ko">포인트 색상</name>
+                <description xml:lang="ko">서브페이지의 제목 부분의 오른쪽에 포인트로 들어가는 색상입니다.(기본값: #666)</description>
+            </var>
+            <var id="content_text_color">
+                <type>text</type>
+                <name xml:lang="ko">본문 기본 색상</name>
+                <description xml:lang="ko">서브페이지의 본문 부분의 텍스트 기본 색상입니다.(기본값: #444)</description>
+            </var>
+        </group>
+    </extra_vars>
+</widget>

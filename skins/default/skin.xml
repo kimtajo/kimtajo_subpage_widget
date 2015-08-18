@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+    <title xml:lang="ko">기본 스킨</title>
+    <description xml:lang="ko">기본 스킨입니다.</description>
+    <version>1.0</version>
+    <date>2015-08-18</date>
+    <author email_address="gptjdwkd891@gmail.com" link="">
+        <name xml:lang="ko">김타조</name>
+    </author>
+</skin>

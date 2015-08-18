@@ -1,0 +1,36 @@
+.subpage_widget_container{
+    padding:10px;
+}
+.subpage_widget_title{
+    margin: 0px 0px 10px 0px;
+
+    border-bottom: 1px #e3e3e3 solid;
+    color:#444;
+    padding: 3px 0px 20px 0px;
+}
+.subpage_widget_title > h1{
+    margin:0px 0px 7px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-size: xx-large;
+    color:#666;
+}
+
+.subpage_widget_sub_title{
+    color:#666;
+    padding-top: 8px;
+    line-height: 20px;
+}
+
+.subpage_widget_point{
+    float:right;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 10px #666 solid;
+    height: 10px;
+    width:50px;
+}
+
+.subpage_widget_content_text{
+    color:#444;
+    font-size:13px;
+}

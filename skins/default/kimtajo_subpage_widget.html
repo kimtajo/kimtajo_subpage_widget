@@ -1,0 +1,22 @@
+<style type="text/css">
+
+</style>
+<load target="./css/style.css"/>
+<div class="subpage_widget_container">
+    <div class="subpage_widget_title">
+        <h1 style="color:{$context->title_color}"|cond="$context->title_color">{$context->title}</h1>
+        <p class="subpage_widget_sub_title" style="color:{$context->sub_title_color}"|cond="$context->sub_title_color">
+            {nl2br($context->sub_title)}
+        </p>
+        <div class="subpage_widget_point" style="border-bottom-color: {$context->point_color}"|cond="$context->point_color"></div>
+    </div>
+    <block cond="$context->content_type === 'image'">
+        <img src="{$context->content_image_src}" width="100%" />
+    </block>
+
+    <block cond="$context->content_type === text">
+        <div class="subpage_widget_content_text">
+            {nl2br($context->content_text)}
+        </div>
+    </block>
+</div>
